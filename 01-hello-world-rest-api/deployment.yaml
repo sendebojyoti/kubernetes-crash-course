@@ -43,5 +43,5 @@ spec:
     targetPort: 8080
   selector:
     app: hello-world-rest-api
-  sessionAffinity: ClientIP
+  sessionAffinity: None # ClientIP
   type: LoadBalancer
