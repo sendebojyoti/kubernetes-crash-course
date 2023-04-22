@@ -20,4 +20,10 @@ Hello World V1 abcde
 
 ```json
 {"message":"Hello World, in28minutes"}
+
 ```
+
+You can build an image with the above configurations by running this command.
+
+mvn clean package dockerfile:build
+mvn clean package dockerfile:push
